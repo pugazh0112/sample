@@ -1,24 +1,78 @@
-<input id="num1">
-<input id="num2">
-<button onclick="Result()">Add</button>
-<p id="final">Result</p>
+<html>
+    <head>
+        <title>practice</title>
+    </head>
+<style>
+    .we{
+        color: blue;
+    }
+
+
+</style>
+
+    <body>
+<center>
+  
+
+<h1>Calculations</h1>
+
+<div class="we">
+
+<input id="one" placeholder="num1">
+<input id="two" placeholder="num2">
+<button onclick="result()">Add</button>
+<button onclick="result2()">sub</button>
+<button onclick="result3()">Mul</button>
+<button onclick="result4()">Div</button>
+<p id="three">Result</p>
+</center>
+</div>
 
 <script>
-     
-     var first=document.getElementById("num1")
-     var second=document.getElementById("num2")
-     var third=document.getElementById("final")
+    
+    var first=document.getElementById("one")
+    var second=document.getElementById("two")
+    var third=document.getElementById("three")
+
+    function result()
+    {
+        var a=Number(first.value)
+        var b=Number(second.value)
+        var total=a+b
+
+        third.textContent=total
+    }
+
+    function result2()
+    {
+        var a=Number(first.value)
+        var b=Number(second.value)
+        var total=a-b
+
+        third.textContent=total
+    }
+function result3()
+    {
+        var a=Number(first.value)
+        var b=Number(second.value)
+        var total=a*b
+
+        third.textContent=total
+    }
+function result4()
+    {
+        var a=Number(first.value)
+        var b=Number(second.value)
+        var total=a/b
+
+        third.textContent=total
+    }
 
 
-     function Result()
-     {
-         var a=Number(first.value)
-         var b=Number(second.value)
-         var total=a+b
-         third.textContent=total
 
-     }
-
+</script>
+  </body>
+  </html>
 
 
 
