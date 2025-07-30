@@ -1,7 +1,4 @@
-function area(l,b)
+for (count=1;count<=5;count=count+1)
 {
-   var a=l*b
-    console.log("area is:"+a)
+    console.log(count+"x2="+count*2)
 }
-
-area(20,30)
