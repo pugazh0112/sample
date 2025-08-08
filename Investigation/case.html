@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investigation</title>
+  <link rel="stylesheet" href="case.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Investigation</h1>
+    </div>
+
+    <div class="container">
+        <div class="case-container">
+            <h2>Murder</h2>
+            <h5>IP6570</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, porro quasi saepe distinctio quas deserunt voluptas fugiat rem consequatur fuga laborum dolorum placeat laboriosam perspiciatis error? Suscipit provident libero illum!</p>
+            <button onclick="deletecase(event)">Delete</button>
+        </div>
+    </div>
+
+    <div class="popup-overlay"></div>
+
+      <div class="popup-box"> 
+        <h2>Add Case</h2>
+        <form>
+            <input type="text" placeholder="Case Name" id="case-name-input">
+            <input type="text" placeholder="Section" id="Section-input">
+            <textarea placeholder="Short Description" id="case-sd-input"></textarea>
+            <button id="add-case">Add</button>
+            <button id="cancel-case">Cancel</button>
+        
+        </form>
+      </div>
+
+    <button  class ="add-button">+</button>
+
+   <script src="case.js"></script>
+</body>
+</html>
