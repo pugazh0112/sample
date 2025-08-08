@@ -25,7 +25,7 @@ addcase.addEventListener("click",function(event){
     event.preventDefault() 
    var div=document.createElement("div")
    div.setAttribute("class","case-container")
-   div.innerHTML=`h2>${casenameinput.value}</h2>
+   div.innerHTML=`<h2>${casenameinput.value}</h2>
             <h5>${sectioninput.value}</h5>
             <p>${casesdinput.value}</p>
               <button onclick="deletecase(event)">Delete</button>`
