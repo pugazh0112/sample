@@ -1,0 +1,122 @@
+.component{
+    background-color: white;
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-right: 400px;
+}
+.nav h2{
+    color: rgb(35, 35, 182);
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 32px;
+}
+.nav hr{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.cont{
+    margin-left:10px;
+}
+.name p{
+    font-weight: bold;
+}
+.name input {
+    margin-left: 5px;
+    width: 200px;
+    height: 30px;
+}
+.name input::placeholder{
+    padding: 8px;
+}
+.mail{
+    font-weight: bold;
+}
+.mail input {
+    margin-left: 5px;
+    width: 330px;
+    height: 30px;
+}
+.mail input::placeholder{
+    padding: 8px;
+}
+
+.regno{
+    font-weight: bold;
+}
+.regno input{
+    width: 280px;
+    margin-left: 5px;
+    height: 30px;
+}
+.year p{
+    font-weight: bold;
+}
+.year select{
+    margin-left: 5px;
+    width: 200px;
+    height: 30px;
+}
+.year select option{
+    padding: 8px;
+    
+}
+.date p{
+    font-weight: bold;
+}
+.date input{
+    margin-left: 5px;
+    width: 200px;
+    height: 30;
+}
+.ph p{
+    font-weight: bold;
+}
+.ph input{
+    margin-left: 10px;
+    width: 200px;
+    height: 30px;
+}
+.password p{
+    font-weight: bold;
+}
+.password input{
+    margin-left: 10px;
+    width: 200px;
+    height: 30px;
+}
+
+.reate{
+    background-color: transparent;
+    border: 2px solid #535354;
+    color: #007bff;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3 ease;
+    margin-left: 400px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.reate .icon{
+    position: relative;
+    z-index: 2;
+}
+.reate::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: #007bff;
+    transition: height 0.3s ease;
+    z-index: 1;
+}
+.reate:hover{
+    color: white;
+}
+.reate:hover::before{
+    height:100%;
+}

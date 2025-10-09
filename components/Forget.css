@@ -1,0 +1,86 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent; /* Assuming the card itself is transparent */
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Header section with the main text */
+.header {
+  margin-bottom: 20px;
+}
+
+.forget {
+  font-size: 3em;
+  font-weight: 300;
+  color: #333333;
+  margin: 0;
+  line-height: 1;
+}
+
+.title {
+  font-size: 1em;
+  color: #666;
+  margin-top: 10px;
+}
+
+/* Styling for the email input section */
+.email {
+  width: 100%;
+  text-align: left;
+  margin-top: 30px;
+}
+
+/* The label for the input field */
+.email label {
+  font-size: 1.2em;
+  color: #007bff; /* The blue color from the image */
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* The input field itself */
+.email input {
+  width: 100%;
+  padding: 8px 0;
+  border: none;
+  border-bottom: 2px solid #007bff; /* Blue underline */
+  background: transparent;
+  font-size: 1em;
+  color: #333;
+  outline: none;
+}
+
+/* Styling for the button */
+.link {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.link button {
+  width: 80%;
+  padding: 15px;
+  border: none;
+  border-radius: 25px;
+  background-color: #26c6da; /* The turquoise blue from the image */
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.link button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.link button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
